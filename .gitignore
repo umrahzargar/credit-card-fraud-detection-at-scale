@@ -1,0 +1,29 @@
+__pycache__/
+.ipynb_checkpoints/
+*.pyc
+
+# Data files
+*.csv
+*.parquet
+*.xls
+*.xlsx
+
+# Spark / Databricks outputs
+spark-warehouse/
+metastore_db/
+derby.log/
+.dbc/
+*.dbc
+
+# Model artifacts
+*.pkl
+*.joblib
+
+# Environment files
+.env
+venv/
+.venv/
+
+# OS files
+.DS_Store
+Thumbs.db
